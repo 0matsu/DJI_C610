@@ -42,7 +42,7 @@ Serial pc(USBTX, USBRX);
 
 int main()
 {
-    if (Motor.Begin(2))
+    if (Motor.Begin(8))
     {
         pc.printf("Begin Successful\n");
     }
